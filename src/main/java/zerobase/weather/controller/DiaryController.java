@@ -8,7 +8,7 @@ import zerobase.weather.service.DiaryService;
 import java.time.LocalDate;
 import java.util.List;
 
-@RestController // controller에다가 상태코드를 지정해서 내려주는게 restcontroller
+@RestController // controller에다가 상태코드를 지정해서 내려주는게 Restcontroller
 public class DiaryController {
 
     private final DiaryService diaryService;
