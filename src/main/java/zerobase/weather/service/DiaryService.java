@@ -46,6 +46,7 @@ public class DiaryService {
         this.dateWeatherRepository = dateWeatherRepository;
     }
 
+
     @Transactional
     @Scheduled(cron = "0 0 1 * * *")
     public void saveWeatherDate() {
